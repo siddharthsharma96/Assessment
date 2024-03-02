@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { removeToken } from "../loginSlice";
+import { removeToken } from "../Utils/loginSlice";
 const DashboardPage = () => {
   const { token, user } = useSelector((store) => store.login);
   console.log(token, user);

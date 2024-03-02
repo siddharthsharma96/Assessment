@@ -7,7 +7,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import SignInPage from "./components/SignInPage";
 import DashboardPage from "./components/DashboardPage";
 import { Provider, useSelector } from "react-redux"; // Import Provider
-import appStore from "./appStore";
+import appStore from "./Utils/appStore";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
   {

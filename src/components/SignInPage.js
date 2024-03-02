@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { setToken } from "../loginSlice";
-import SigninButton from "../SigninButton";
+import { setToken } from "../Utils/loginSlice";
+import SigninButton from "../UI/SigninButton";
 
 const SignInPage = ({ operation }) => {
   const dispatch = useDispatch();
